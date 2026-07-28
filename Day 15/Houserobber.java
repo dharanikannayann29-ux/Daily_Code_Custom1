@@ -4,6 +4,7 @@ class Solution {
         if (nums.length == 1) {
             return nums[0];
         }
+        
         int[] dp = new int[nums.length];
 
         dp[0] = nums[0];
